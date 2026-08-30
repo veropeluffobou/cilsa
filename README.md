@@ -11,7 +11,7 @@ Base de Datos: MySQL (utilizando mysql2/promise).
 📁 Estructura del Proyecto
 El código está completamente desacoplado en dos carpetas principales:
 
-lista_de_tareas/
+lista_de_tareas/ 
 │
 ├── backend/                  # Servidor, rutas, controladores y modelos MVC
 │   ├── Config/               # Configuración de base de datos e inicializador
