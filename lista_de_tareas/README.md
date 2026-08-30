@@ -11,21 +11,21 @@ Base de Datos: MySQL (utilizando mysql2/promise).
 📁 Estructura del Proyecto
 El código está completamente desacoplado en dos carpetas principales:
 
-lista_de_tareas/
-│
-├── backend/                  # Servidor, rutas, controladores y modelos MVC
-│   ├── Config/               # Configuración de base de datos e inicializador
-│   ├── Controllers/          # Lógica de negocio (Lógica de control)
-│   ├── Middleware/           # Middlewares de autenticación
-│   ├── Models/               # Consultas e interacción con la base de datos
-│   ├── Routes/               # Definición de rutas y endpoints de la app
-│   ├── .env                  # Variables de entorno
-│   ├── app.js                # Punto de entrada principal
-│   └── package.json
-│
-└── frontend/                 # Interfaz visual y recursos estáticos
-    ├── Public/               # Archivos CSS e Imágenes
-    └── Views/                # Plantillas EJS (Páginas, Modales y Parciales)
+--lista_de_tareas/
+ │
+ ├── backend/                  # Servidor, rutas, controladores y modelos MVC
+ │   ├── Config/               # Configuración de base de datos e inicializador
+ │   ├── Controllers/          # Lógica de negocio (Lógica de control)
+ │   ├── Middleware/           # Middlewares de autenticación
+ │   ├── Models/               # Consultas e interacción con la base de datos
+ │   ├── Routes/               # Definición de rutas y endpoints de la app
+ │   ├── .env                  # Variables de entorno
+ │   ├── app.js                # Punto de entrada principal
+ │   └── package.json
+ │
+ └── frontend/                 # Interfaz visual y recursos estáticos
+     ├── Public/               # Archivos CSS e Imágenes
+     └── Views/                # Plantillas EJS (Páginas, Modales y Parciales)
 
 🚀 Instalación y Configuración
 
